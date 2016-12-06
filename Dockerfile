@@ -1,5 +1,5 @@
 FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu14.04
-MAINTAINER oosawak@rio.gsic.titech.ac.jp
+MAINTAINER oosawak<oosawak@rio.gsic.titech.ac.jp>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
